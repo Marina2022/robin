@@ -1,0 +1,20 @@
+.clients {
+  padding-top: 60px;
+  padding-bottom: 96px;
+}
+
+.title {
+  color: rgb(1, 163, 124);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.clientList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}

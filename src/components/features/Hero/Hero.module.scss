@@ -1,0 +1,77 @@
+.hero {
+  min-height: 800px;
+  padding-top: 30px;
+  padding-bottom: 96px;
+}
+
+.title {
+  color: rgb(192, 245, 62);
+  font-family: 'Google Sans';
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.text {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Google Sans';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+
+.btnBlock {
+  display: flex;
+  width: 447px;
+  gap: 10px;
+  margin: 0 auto 380px;
+}
+
+.advantagesList {
+  display: flex;
+  gap: 60px;
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 20px;
+  backdrop-filter: blur(32px);
+  background: rgb(193, 245, 61);
+  position: relative;
+
+  &::before {
+    content: '';
+    background: url('@/assets/img/hero.png') no-repeat;
+    position: absolute;
+    top: -367px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 541px;
+    height: 368px;
+    background-size: contain;
+  }
+
+}
+
+.listItem {
+  padding: 15px;
+}
+
+.listItemTitle {
+  color: rgb(27, 62, 45);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.listItemText {
+  color: rgb(0, 0, 0, .5);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
