@@ -33,8 +33,8 @@ const VideoBlock = () => {
                             <img src={playBtn}/>
                         </button>
                     }
-                    <video className={s.video} ref={videoRef} onClick={videoClickHandler}>
-                        <source src="/assets/video/z.mp4" type="video/mp4"/>
+                    <video className={s.video} ref={videoRef} onClick={videoClickHandler} poster="/assets/img/poster+.jpg" >
+                        <source src="/assets/video/1.mp4" type="video/mp4"/>
                     </video>
                 </div>
 

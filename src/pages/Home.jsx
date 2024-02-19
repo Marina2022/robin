@@ -7,9 +7,9 @@ const Home = () => {
     return (
         <div>
             <Hero/>
-            <VideoBlock/>
-            <Faq/>
-            <Clients/>
+            {/*<VideoBlock/>*/}
+            {/*<Faq/>*/}
+            {/*<Clients/>*/}
         </div>
     );
 };

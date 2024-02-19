@@ -1,0 +1,90 @@
+.title {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, .5);
+  font-family: Onest;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.greenBtn {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.amount {
+  color: rgba(255, 255, 255, .5);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+
+.inputWrapper {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.inputLabel {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: Onest;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.highlight {
+  color: rgb(195, 245, 60)
+}
+
+.balance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: solid #fff 1px;
+  margin-bottom: 20px;
+}
+
+.balanceText {
+  font-family: Onest;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.balanceValue {
+  font-family: Onest;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: rgb(195, 245, 60)
+}
+
+.reward {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rewardText{
+  font-family: Onest;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.rewardValue {
+  font-family: Onest;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}

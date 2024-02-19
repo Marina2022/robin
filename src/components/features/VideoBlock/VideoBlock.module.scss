@@ -6,15 +6,19 @@
 .videoWrapper {
   text-align: center;
   position: relative;
-  margin-bottom: 50px;
+  max-width: 742px;
+  margin: 0 auto 50px;
+  border-radius: 20px;
 
+  @media (max-width: 768px) {
+    max-width: 92vw;
+  }
 }
 
 .video {
-  width: auto;
-  height: 379px;
+  width: 100%;
   border-radius: 20px;
-  background: rgb(51, 51, 51);
+  height: auto;
 }
 
 .playBtn {

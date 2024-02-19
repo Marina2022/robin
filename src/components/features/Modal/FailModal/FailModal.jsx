@@ -34,7 +34,7 @@ const ClaimModal = () => {
                 </p>
             </div>
 
-            <Button classname={s.greenBtn} type='green' classname={s.grBtn}>Disconnect</Button>
+            <Button type='green' classname={s.grBtn}>Disconnect</Button>
             <Button type='transparent' onClick={backHandler}>Back</Button>
         </Modal>
     );

@@ -7,18 +7,15 @@ import Button from "@/components/ui/Button/Button.jsx";
 const NiceModal = () => {
     return (
         <>
+            <ClaimModal/>
+            <div className={s.overlay}>
+            </div>
+            <Modal>
+                <ModalTitle>You have received 50 tokens</ModalTitle>
+                <Button type="green">Nice</Button>
+            </Modal>
+        </>
+    );
+};
 
-                <ClaimModal/>
-
-
-                <div className={s.overlay}>
-                </div>
-                    <Modal>
-                        <ModalTitle>You have received 50 tokens</ModalTitle>
-                        <Button type="green">Nice</Button>
-                    </Modal>
-            </>
-            );
-            };
-
-            export default NiceModal;
+export default NiceModal;

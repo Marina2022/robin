@@ -48,16 +48,26 @@
     top: -367px;
     left: 50%;
     transform: translateX(-50%);
-
     width: 541px;
     height: 368px;
     background-size: contain;
   }
-
 }
 
 .listItem {
   padding: 15px;
+  position: relative;
+
+  &:after {
+    content: '';
+    width: 1px;
+    height: 43px;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(27, 62, 45);
+  }
 }
 
 .listItemTitle {

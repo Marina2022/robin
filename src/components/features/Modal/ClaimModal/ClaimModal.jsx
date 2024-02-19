@@ -4,6 +4,7 @@ import Button from "@/components/ui/Button/Button.jsx";
 import {useState} from "react";
 import ModalTitle from "@/components/ui/ModalTitle/ModalTitle.jsx";
 import Modal from "@/components/features/Modal/Modal.jsx";
+import {useNavigate} from "react-router-dom";
 
 const ClaimModal = () => {
 
@@ -11,6 +12,12 @@ const ClaimModal = () => {
     const inputHandler = (e) => {
         setValue(e.target.value)
     }
+
+    const navigate = useNavigate()
+    const backHandler = () => {
+        navigate('/')
+    }
+
 
     return (
         <Modal>
@@ -20,7 +27,7 @@ const ClaimModal = () => {
             <p className={s.subtitle}>Enter your wallet</p>
             <Input placeholder="text" value={value} onChange={inputHandler}/>
             <Button classname={s.greenBtn} type='green'>Claim token</Button>
-            <Button type='transparent'>Claim token</Button>
+            <Button onClick={backHandler} type='transparent'>Back</Button>
         </Modal>
     );
 };
