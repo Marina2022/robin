@@ -41,6 +41,11 @@
   color: #000;
   padding-block: 40px;
   background: rgb(195, 245, 60);
+
+  @media (max-width: 500px) {
+    padding-block: 20px;
+    margin-top: 50px;
+  }
 }
 
 .faqSpot {
