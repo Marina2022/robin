@@ -2,6 +2,10 @@
   min-height: 800px;
   padding-top: 30px;
   padding-bottom: 96px;
+
+  @media (max-width: 500px) {
+    padding-bottom: 60px;
+  }
 }
 
 .title {
@@ -12,6 +16,14 @@
   line-height: 60px;
   text-align: center;
   margin-bottom: 15px;
+
+  @media (max-width: 998px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 40px;
+  }
 }
 
 .text {
@@ -30,6 +42,16 @@
   width: 447px;
   gap: 10px;
   margin: 0 auto 380px;
+
+  @media (max-width: 998px) {
+    flex-direction: column;
+    width: 92%;
+    align-items: center;
+  }
+
+  @media (max-width: 644px) {
+    margin-bottom: 60vw;
+  }
 }
 
 .advantagesList {
@@ -40,6 +62,15 @@
   backdrop-filter: blur(32px);
   background: rgb(193, 245, 61);
   position: relative;
+  z-index: 1;
+  @media (max-width: 998px) {
+    flex-direction: column;
+    max-width: 590px;
+    margin: 0 auto;
+    gap: 20px;
+    background: none;
+    border: none;
+  }
 
   &::before {
     content: '';
@@ -51,12 +82,31 @@
     width: 541px;
     height: 368px;
     background-size: contain;
+
+    @media (max-width: 998px) {
+      width: 92%;
+      height: 368px;
+      object-fit: cover;
+      top: -366px;
+    }
+
+    @media (max-width:644px) {
+      top: -57vw;
+    }
   }
 }
 
 .listItem {
   padding: 15px;
   position: relative;
+
+  @media (max-width: 998px) {
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 20px;
+    backdrop-filter: blur(32px);
+    background: rgb(193, 245, 61);
+  }
+
 
   &:after {
     content: '';
@@ -67,6 +117,10 @@
     top: 50%;
     transform: translateY(-50%);
     background-color: rgb(27, 62, 45);
+
+    @media (max-width: 998px) {
+      display: none;
+    }
   }
 }
 

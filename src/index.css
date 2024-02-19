@@ -98,4 +98,11 @@ li {
 .container {
   max-width: 954px;
   margin: 0 auto;
+
+  @media (max-width: 998px) {
+    max-width: 92%;
+    text-align: center;
+    
+  }
+
 }

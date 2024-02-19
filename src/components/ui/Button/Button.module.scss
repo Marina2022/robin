@@ -6,9 +6,12 @@
   justify-content: center;
   align-items: center;
   border-radius: 60px;
+  max-width: 386px;
 
   &:hover {
-    transform: scale(1.03)
+    @media(min-width: 999px) {
+      transform: scale(1.03)
+    }
   }
 }
 

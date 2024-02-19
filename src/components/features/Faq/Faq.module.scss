@@ -9,6 +9,11 @@
   width: 307px;
   height: 307px;
   margin-bottom: -34px;
+
+  @media (max-width: 998px) {
+    width: 256px;
+    height: 256px;
+  }
 }
 
 .faqItemNumber {
