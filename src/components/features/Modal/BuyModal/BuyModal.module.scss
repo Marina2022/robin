@@ -1,3 +1,12 @@
+.buyModal {
+  @media(max-height: 880px) {
+    position: static;
+    transform: translate(0);
+    margin: 50px auto;
+    padding: 50px;
+  }
+}
+
 .title {
   margin-bottom: 0;
 }

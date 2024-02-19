@@ -28,7 +28,7 @@ const BuyModal = () => {
     }
 
     return (
-        <Modal>
+        <Modal classname={s.buyModal}>
             <BuyStakingSwitch on='buy'/>
             <ModalTitle classname={s.title}>
                 Clame token on your wallet
