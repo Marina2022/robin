@@ -3,7 +3,6 @@ import Modal from "@/components/features/Modal/Modal.jsx";
 import ClaimModal from "@/components/features/Modal/ClaimModal/ClaimModal.jsx";
 import ModalTitle from "@/components/ui/ModalTitle/ModalTitle.jsx";
 import Button from "@/components/ui/Button/Button.jsx";
-
 const NiceModal = () => {
     return (
         <>

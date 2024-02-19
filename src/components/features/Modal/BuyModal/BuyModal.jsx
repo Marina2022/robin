@@ -10,7 +10,6 @@ import downBtn from '@/assets/img/downBtn.svg'
 import {useState} from "react";
 import {useNavigate} from "react-router-dom";
 
-
 const BuyModal = () => {
 
     const [EthValue, setEthValue] = useState('')

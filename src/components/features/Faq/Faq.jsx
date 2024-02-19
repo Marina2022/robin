@@ -2,7 +2,6 @@ import s from './Faq.module.scss';
 import faqImg from '@/assets/img/faq.png'
 import poweredBy from '@/assets/img/poweredBy.svg'
 import faqSpot from '@/assets/img/faqSpot.png'
-
 const Faq = () => {
     return (
         <div className={s.faq}>
@@ -11,7 +10,7 @@ const Faq = () => {
                 <img className={s.img} src={faqImg} alt="faq image"/>
                 <ul className={s.faqList}>
                     <li className={s.faqItem}>
-                        <p className={s.faqItemNumber}>1.</p>
+                        <p className={s.faqItemNumber}>1. How to stake?</p>
                         <p className={s.faqItemText}>Itaque earum rerum hic tenetur a sapiente delectus, qui in ea
                             voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat,
                             quo voluptas nulla pariatur.</p>
@@ -24,7 +23,7 @@ const Faq = () => {
                             velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     </li>
                     <li className={s.faqItem}>
-                        <p className={s.faqItemNumber}>2.</p>
+                        <p className={s.faqItemNumber}>2. How to stake?</p>
                         <p className={s.faqItemText}>Itaque earum rerum hic tenetur a sapiente delectus, qui in ea
                             voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat,
                             quo voluptas nulla pariatur.</p>
@@ -37,7 +36,7 @@ const Faq = () => {
                             velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     </li>
                     <li className={s.faqItem}>
-                        <p className={s.faqItemNumber}>3.</p>
+                        <p className={s.faqItemNumber}>3. How to stake?</p>
                         <p className={s.faqItemText}>Itaque earum rerum hic tenetur a sapiente delectus, qui in ea
                             voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat,
                             quo voluptas nulla pariatur.</p>

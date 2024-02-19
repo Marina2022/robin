@@ -14,7 +14,6 @@ const Clients = () => {
                             return <ClientCard key={index} client={client}/>
                         })
                     }
-
                 </ul>
             </div>
         </div>

@@ -9,5 +9,4 @@ const Modal = ({children}) => {
         </div>
     );
 };
-
 export default Modal;

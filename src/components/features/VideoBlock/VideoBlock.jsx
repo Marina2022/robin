@@ -3,7 +3,6 @@ import playBtn from '@/assets/img/playBtn.svg'
 import {useRef, useState} from "react";
 import Button from "@/components/ui/Button/Button.jsx";
 
-
 const VideoBlock = () => {
 
     const [showBtn, setShowBtn] = useState(true)
@@ -22,7 +21,6 @@ const VideoBlock = () => {
             setShowBtn(true)
         }
     }
-
 
     return (
         <div className={s.videoBlock}>
@@ -55,7 +53,6 @@ const VideoBlock = () => {
                 </div>
             </div>
         </div>
-
     );
 };
 

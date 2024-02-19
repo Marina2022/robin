@@ -1,5 +1,4 @@
 import s from './BuyStakingSwitch.module.scss';
-
 const BuyStakingSwitch = ({on='buy'}) => {
 
     return (

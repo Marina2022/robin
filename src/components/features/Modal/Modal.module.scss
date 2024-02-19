@@ -1,11 +1,6 @@
-
 .underlay {
   min-height: calc(100vh - 56px - 107.08px);
   position: relative;
-
-  @media(max-width: 1440px) {
-    //min-height: unset;
-  }
 }
 
 .modal {
@@ -23,7 +18,7 @@
     transform: translate(0);
     margin: 50px auto;
   }
-  
+
   @media(max-width: 500px) {
     width: 92%;
     padding: 20px;

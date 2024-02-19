@@ -4,12 +4,8 @@ import Input from "@/components/ui/Input/Input.jsx";
 import Button from "@/components/ui/Button/Button.jsx";
 import Modal from "@/components/features/Modal/Modal.jsx";
 import BuyStakingSwitch from "@/components/ui/BuyStakingSwitch/BuyStakingSwitch.jsx";
-import Eth from '@/assets/img/Eth.svg'
-import BSQ from '@/assets/img/BSQ.svg'
-import downBtn from '@/assets/img/downBtn.svg'
 import {useState} from "react";
 import {useNavigate} from "react-router-dom";
-
 
 const StakingModal = () => {
 
@@ -47,7 +43,6 @@ const StakingModal = () => {
                 <div className={s.rewardText}>The reward for the month</div>
                 <div className={s.rewardValue}>500 BSQ</div>
             </div>
-
 
             <Button classname={s.greenBtn} type='green'>Stacking</Button>
             <Button onClick={backHandler} type='transparent'>Back</Button>

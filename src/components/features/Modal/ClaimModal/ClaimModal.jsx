@@ -18,7 +18,6 @@ const ClaimModal = () => {
         navigate('/')
     }
 
-
     return (
         <Modal>
             <ModalTitle >

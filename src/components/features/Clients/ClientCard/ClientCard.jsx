@@ -11,11 +11,9 @@ const ClientCard = ({client}) => {
                     <p className={s.subtitle}>{client.subtitle}</p>
                 </div>
             </div>
-
             <p className={s.text}>
                 {client.text}
             </p>
-
             <span className={s.date}>{client.date}</span>
         </li>
     );
